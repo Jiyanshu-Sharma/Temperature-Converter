@@ -3,7 +3,12 @@ html, body {
     margin: 0;
     background-color: #FFDAB9;
 }
-
+@media (min-width: 0px) {
+    .box {
+        width: 70%;
+        margin: 10% auto;
+    }
+}
 .container {
     display: flex;
     flex-direction: column;
